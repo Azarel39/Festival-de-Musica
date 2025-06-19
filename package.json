@@ -1,0 +1,30 @@
+{
+  "name": "festival-de-musica",
+  "version": "1.0.0",
+  "description": "Aprendiendo Sass Y npm",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:dist/css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azarel39/Festival-de-Musica.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP"
+  ],
+  "author": "Azarel Fuentes Luciano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azarel39/Festival-de-Musica/issues"
+  },
+  "homepage": "https://github.com/Azarel39/Festival-de-Musica#readme",
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.89.2"
+  }
+}
