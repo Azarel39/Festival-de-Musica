@@ -1,0 +1,24 @@
+@use 'base/variables'as v;
+
+.header
+{
+    background-color: v.$verde;
+    padding: 2rem;
+}
+h1
+{
+    color: v.$blanco;
+    margin: 0;
+}
+.contenido-header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a
+{
+    color: v.$blanco;
+    margin: 0 1rem;
+
+}
